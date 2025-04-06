@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginstrasi</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Star Navbar -->
+     <header >
+        <nav class="star-navbar">
+            <a href="">
+                <img src="assets/Logo.png" alt="logo" class="logo">
+            </a>
+        </nav>
+     </header>
+     <!-- end navbar -->
+
+     <section class="container">
+        <div class="form-registrasi">
+            <div class="login-box">
+            <div class="Judul">
+                <h2 class="ms">Pendaftaran Akun</h2>
+            <p class="pr">Yuk, daftar akun sekarang juga!</p>
+            </div>
+            <form class="form" action="">
+                <!-- nama lengkap -->
+                
+                 <label for="nama">Nama Lengkap</label>
+                 <input type="text" id="nama" required>
+
+                 <!-- email -->
+                 <label for="email">E-Mail</label>
+                 <input type="email" id="email" required>
+
+                 <!-- nomro hp -->
+                  <label for="nomot-hp">NO. HP</label>
+                  <input type="tel" name="nomor-hp" id="nomot-hp" pattern="085">
+                  
+        
+                <!-- kata sandi -->
+                  <label for="password">Kata Sandi</label>
+                  <input type="password" id="password" required >
+                  
+                  <!-- konfimasi kata sandi -->
+                  <label for="password">Konfirmasi Kata Sandi</label>
+                  <input type="password" id="password" required >
+                  
+
+                <div class="password-option">
+                    <a href="lupa">Lupa Password?</a>
+                </div>
+
+                <button type="submit" class="btn login">Masuk</button>
+                <button type="button" class="btn register">Daftar</button>
+
+                <p class="atu">atau</p>
+                <button type="button" class="btn-masuk-google">
+                    <img src="/assets/logos_google-icon.svg" alt="">
+                    Daftar Dengan Google
+                </button>
+            </form>
+             </div>
+        </div>
+
+     </section>
+
+    
+</body>
+</html>
